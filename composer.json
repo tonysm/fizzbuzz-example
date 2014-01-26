@@ -1,0 +1,25 @@
+{
+    "name": "tonysm/demo",
+    "authors": [
+        {
+            "name": "Tony Messias",
+            "email": "tonyzrp@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Acme\\": "src/"
+        }
+    },
+    "require": {
+        
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.9.*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "preferred-install": "dist"
+    }
+}
